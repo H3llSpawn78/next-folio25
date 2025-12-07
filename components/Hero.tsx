@@ -26,7 +26,7 @@ const Hero = () => {
                     <p className="text-white text-center md:tracking-wider mt-2 mb-4 text-sm md:text-2xl">Hi, my name is Rich and i am a frontend developer from the UK.</p>
                 </div>
             </div>
-            <a href="#"><BorderedButton title="Check out some of my work" otherClasses="mx-auto" position="right" icon={<FaLocationArrow />} handleClick={() => { }} /></a>
+            <a href="#"><BorderedButton title="Check out some of my work" otherClasses="mx-auto" position="right" icon={<FaLocationArrow />} /></a>
         </div>
     )
 }
